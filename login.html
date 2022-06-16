@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./signup.css" />
+    <link rel="stylesheet" href="./login.css">
+  </head>
+  <body>
+    
+    <div  id="container">
+      <div id="signIn">
+        <div id="top_head">
+         
+          <h2 id="signin">Sign In</h2>
+        </div>
+    
+        <input id="email" type="email" placeholder="Email address" required/>
+        <input id="password" type="password" placeholder="Password" required />
+        <div id="access">
+          <input id="access_code" type="text" placeholder="Access code" />
+          <img id="random" src="https://www.geekbuying.com/QA/QACode" alt="" />
+        </div>
+       <div style="display: flex" id="check1" >
+        <label id="login_check" >
+            <label style="display: flex" class="login_check">
+                <input id="checkbox1" type="checkbox"  id="isKeepSigned" required><span class="keep mee">Keep me signed in</span>
+                <i id="mark"   class="keep">?</i>
+            </label>    
+       
+        </label>
+        <div class="login_forgot" onclick="ForgotPassword()"><span>Forgot your password?</span></div>
+    </div>
+<div id="submit" onclick="submit()">Sign In</div>
+<div id="newAcc"><a href="signup.html">Create a new account</a></div>
+<div id="alert"></div>
+<div class="line_or"><span id="or">or</span></div>
+<div class="share_btn">
+                
+    <img id="google" src="data:image/png;base64,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" alt="">
+</div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./login.js"></script>
