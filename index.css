@@ -185,10 +185,11 @@ body{
 }
 
 .box>img{
-    width: 100%;
+    
     padding-left: 30px;
     padding-right: 30px;
-    height: 170px;
+    width: 100%;
+    /* height: 170px; */
     border-radius: 20px;
     margin: auto;
    
@@ -390,6 +391,7 @@ body{
     background-color: white;
     border-radius: 15px;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
 }
 .download>h2{
     font-family: 'Poppins', sans-serif;
@@ -414,10 +416,11 @@ body{
     margin-left: 320px;
 }
 .revvapp{
-    width: 500px;
+    width: 34.8%;
     margin-left: 680px;
     margin-top: 96px;
     position: absolute;
+
 }
 
 /* <!-- oru journy so far  --> */
