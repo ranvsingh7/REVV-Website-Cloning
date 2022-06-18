@@ -539,4 +539,12 @@ body{
     color: white;
 }
 
+/* footer  */
+.footer-img>div>img{
+    width: 100%;
+}
+.footer-img>div{
+    margin-top: 50px;
+}
+
 
