@@ -539,6 +539,118 @@ body{
     color: white;
 }
 
+/* download and social */
+.download-social{
+    width: 85%;
+    margin: auto;
+    margin-top:50px;
+    gap: 10px;
+    height: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+
+}
+
+.download-social>div{
+    width: 33%;
+    /* border: 1px solid; */
+
+}
+
+.download-social>div:nth-child(1)>img{
+    /* border: 1px solid; */
+    width: 25%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.download-social>div:nth-child(1)>p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #122232B3;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+
+.download-social>div:nth-child(2)>button{
+    /* border: 1px solid; */
+    border: none;
+    width: 90px;
+    height: 40px;
+    margin-left: 30%;
+    background-color: white;
+    margin-right: 90%;
+    color: #5D5E6F;
+    
+}
+.download-social>div:nth-child(2)>button>a{
+    color: #5D5E6F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+.download-social>div:nth-child(3)>h6{
+    color: #5D5E6F;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 7.5%;
+    margin-left: 10%;
+    font-size: 16px;
+    font-weight: 400;
+}
+.social-icon{
+    display: flex;
+    width: 60%;
+    margin-left: 10%;
+    justify-content: space-between;
+    /* border: 1px solid */
+    margin-top: 5%;
+    margin-bottom: 50px;
+
+    
+    /* width: ; */
+    
+}
+.social-icon>img{
+    width: 22px;
+    opacity: 70%;
+
+    
+    
+}
+.app-dwnld-logo{
+    border: .5px solid gray;
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding:10px 20px 10px 20px ;
+}
+.app-dwnld-logo>img{
+    width: 20px;
+}
+.app-dwnld-logo>a{
+    margin-left: 10px;
+    /* margin-top:-1px; */
+    color: #5D5E6F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    /* font-weight: 400; */
+}
+.app-dwnld-logo>a>span{
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+
+
 /* footer  */
 .footer-img>div>img{
     width: 100%;
