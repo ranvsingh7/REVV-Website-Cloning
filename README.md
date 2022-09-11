@@ -15,6 +15,7 @@ In this project, we're going to create Revv website cloning.
 - [@Gajala143](https://github.com/Gajala143)
 - [@ahtishamkhan5678](https://github.com/ahtishamkhan5678)
 - [@8975380494](https://github.com/8975380494)
+- [@ranvsingh7](https://github.com/ranvsingh7)
 
 
 
