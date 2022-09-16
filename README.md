@@ -4,7 +4,7 @@
 
 # Revv Website Cloning
 
-In this project, we're going to create Revv website cloning.
+This project is about building an online Self drive car rental service that provides you with all the privacy, web application with FrontEnd integration including a lot of functionalities.
 
 
 ## Authors
