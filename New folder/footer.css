@@ -1,0 +1,256 @@
+body {
+    width: 100%;
+    margin: auto;
+    background-color: #f1f4f8 ;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 100px;
+}
+#footer>h2 {
+    width: 88%;
+    margin: 5%;
+    height: auto;
+    font-size: 30px;   
+    color: #7f8c97;
+    margin-bottom: 20px;
+    margin-top: 40px;
+
+}
+
+
+#invest {
+    
+    margin: auto;
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-top-left-radius: 20px;
+    justify-content: space-between;
+    color: #3d3e55 ;
+    background-color: white;
+
+}
+#invest>.logo>img {
+    
+    margin: auto;
+    width: 100%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+
+    
+}
+#invest>.logo>h4 {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+@media all and (min-width: 100px) and (max-width: 650px){
+    #invest {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,auto);
+        
+    }
+    
+}
+
+#Serviceablecities {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #2a2b36;
+    margin-top: 40px;
+}
+#Serviceablecities>div>h2 {
+    justify-content: flex-start;
+    padding-top: 30px;
+    color: white;
+    font-size: 32px;
+}
+#Serviceablecities>div {
+    
+    padding-left: 60px;
+}
+#rentalcity {
+    color: #83838a ;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+#rentalcity>p:hover {
+    cursor: pointer;
+    color: white;
+    
+}
+@media all and (min-width: 100px) and (max-width: 650px){
+    #rentalcity {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        
+    }
+    
+}
+
+#logo {
+    height: auto;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+#logo>.inner {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+#logo>.inner>img {
+    padding-left: 60px;
+    padding-top: 20px;
+    width: 60%;
+    
+}
+#logo>.inner>img+p {
+    margin-top: 40px;
+    padding-left: 60px;
+    color: #5e5c5a ;
+    font-size: 16px;    
+    
+}
+#logo>.inner>div>p {
+    text-align: center;
+    font-size: 18px;
+    
+}
+a {
+    
+    text-decoration: none;
+    color: #5e5c5a ;
+}
+a:hover {
+    cursor: pointer;
+    color: black;
+}
+#logo>.inner>p {
+    font-size: 22px;
+    justify-content: flex-start;
+    color: #5e5c5a ;
+
+    
+}
+
+
+.socialsite {
+    height: 50px;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,50px);
+    column-gap: 10px;
+    
+}
+.socialsite>a {
+    height: 50px;
+    width: 50px;
+
+
+}
+.socialsite>a:hover {
+    background-color: teal;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+#logo>.inner>.app {
+    
+    display: grid;
+    width: 80px;
+    height: 30px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(1,auto);
+    padding-bottom: 30px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    padding-right: auto;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+#logo>.inner>.app>img {
+    
+    width: 40%;
+    
+}
+
+.app>a:hover{
+    cursor: default;
+    color: rgb(95, 204, 204);
+
+
+}
+.app>a>b {
+    color: black;
+}
+@media all and (min-width: 100px) and (max-width: 650px){
+    #logo {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        
+    }
+}
+
+
+#footer>p,li {
+    width: 88%;
+    margin-left: 5%;
+    height: auto;
+    font-size: 16px;
+    color: #83807e ;
+    
+
+}
+ul {
+    list-style: none;
+}
+#footer> ul li::before {
+    list-style: disc;
+    content: "\2022";
+    color: rgb(95, 204, 204);
+    display: inline-block; 
+    width: 1em;
+    margin-left: -2.5em;
+    line-height: 2.5;
+    
+}
+li>a {
+    text-decoration: underline;
+    color: rgb(95, 204, 204);
+    
+}
+li>a:hover {
+    color: rgb(95, 204, 204);
+
+}
+
