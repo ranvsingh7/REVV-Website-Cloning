@@ -1,0 +1,87 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+ul{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+
+    border: 2px solid whitesmoke;
+
+    gap: 9%;
+    background-color: white;
+    cursor: pointer;
+height: 70px;
+width: 100%;
+  }
+  
+  #navimg{margin-top: 12px;
+    margin-bottom: 10px;
+    width:90%;
+    height: 70%;
+    margin-left: 80%;
+  }
+  #hyundai{
+    border: 1px solid lightgrey;
+    margin: 14px 20px 0px ;
+    
+   padding:10px;
+    margin-left: 140%;
+    border-radius: 4px;
+  }
+  #mahindra{
+    border: 1px solid lightgrey;
+    margin: 14px 20px 0px;
+   padding:10px;
+    margin-left: 90%;
+    border-radius: 4px;
+    
+  }
+  #mahindra:hover{
+      background-color: black;
+  }
+
+  #hyundai:hover{
+      background-color: black;
+  }
+
+  #faqs{
+    margin: 14px 20px 0px 40px;
+   padding:6.4px 9.6px;
+ margin-right: -10%;
+ margin-left: 90%;
+ font-size: medium;
+ font-family:sans-serif;
+ color: gray;
+
+  }
+  #faqs:hover{
+    color: lightseagreen;
+  }
+  a:hover{
+    color: lightseagreen;
+  }
+  #mobile_logo{
+    margin: 3px ;
+   margin-top: 7px;
+   padding:6.4px 9.6px;
+   margin-left: 10%;
+
+  }
+  #l{
+    color: black;
+    margin-left: 40px;
+    font-size: larger;
+    margin-top: 20px;
+  }
+  
+  a{
+  position: absolute;
+  margin-top: 5px;
+    text-decoration: none;
+    color:black;
+  }
+ 
+ 
+ 
